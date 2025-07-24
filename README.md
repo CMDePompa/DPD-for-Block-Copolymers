@@ -2,12 +2,10 @@
 
 **Status**: 🚧 Active Development  
 **Author**: Claire Murphy DePompa  
-**License**: [MIT License](LICENSE)  
+**License**: [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt)   
 **Citation**: See `citation.cff`
 
-This toolkit builds bead–spring polymer melts (e.g., ABA triblocks, diblocks) for use in LAMMPS simulations.  
-It’s a modern, lightweight update to the classic `Pizza.py` FENE chain builder—designed for quick input generation in block copolymer DPD/coarse-grained studies.
-
+This toolkit builds bead–spring polymer melts (e.g., ABA triblocks, diblocks) for use in LAMMPS simulations. It’s a modern, lightweight update to the classic [Pizza.py](https://lammps.sandia.gov/pizza.html) FENE chain builder—designed for quick input generation in block copolymer DPD/coarse-grained studies. Portions of the code are adapted from the `Pizza.py` toolkit, part of the LAMMPS toolkit, and used in accordance with the same license.
 
 ---
 
@@ -23,8 +21,7 @@ It’s a modern, lightweight update to the classic `Pizza.py` FENE chain builder
 
 ### 📈 Post-Processing (`Post-Processing Analysis/`)
 
-Includes a prototype Jupyter notebook for RDF analysis using [MDAnalysis](https://www.mdanalysis.org/).  
-More tools for analyzing microphase structure are in development.
+Includes a prototype Jupyter notebook for RDF analysis using [MDAnalysis](https://www.mdanalysis.org/). More tools for analyzing microphase structure are in development.
 
 ---
 
