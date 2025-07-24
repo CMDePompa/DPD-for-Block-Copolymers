@@ -3,7 +3,7 @@
 **Status**: 🚧 Active Development  
 **Author**: Claire Murphy DePompa  
 **License**: [MIT License](LICENSE)  
-**Citation**: See [Attribution](#attribution--citation)
+**Citation**: See `citation.cff'
 
 This toolkit builds bead–spring polymer melts (e.g., ABA triblocks, diblocks) for use in LAMMPS simulations.  
 It’s a modern, lightweight update to the classic `Pizza.py` FENE chain builder—designed for quick input generation in block copolymer DPD/coarse-grained studies.
