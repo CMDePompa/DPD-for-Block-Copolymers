@@ -17,7 +17,7 @@
 """
 EXAMPLE DRIVER SCRIPT
 ________________________________________________________________________________________________________________________
- - Builds an AB diblock copolymer melt* for Dissipative‑Particle‑Dynamics
+ - Builds an AB diblock copolymer melt for Dissipative‑Particle‑Dynamics
    (or any bead‑spring) simulations in LAMMPS.
  - You choose:
        1.  number of chains in the box (`nchains`)
@@ -29,10 +29,10 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________________________________
  HOW TO EDIT FOR A NEW SYSTEM:
  - Change only the values in the USER INPUT block, leave the rest
- - Change the tuples in `block_def`:
+   - Change the tuples in `block_def`:
        (atom_type, number_of_beads_in_block)
-   Example below makes an **A15‑B70‑A15** triblock (A = type‑1, B = type‑2).
- - Keep `nchains * total_beads_per_chain` reasonable (less than 50000) for quick tests.
+     Example below makes an **A30‑B70** diblock (A = type‑1, B = type‑2).
+ NOTE: Keep `nchains * total_beads_per_chain` reasonable (less than 50000) for quick tests.
 """
 import os
 from chain_builder import ChainBuilder
@@ -40,7 +40,7 @@ from data          import data     # <- patched version with d.comments support
 
 # ─── USER INPUT ─────────────────────────────────────────────────────────────
 nchains   = 100                    # number of chains
-block_def = [(1, 30),              # 35 beads of type‑1  (block A)
+block_def = [(1, 30),              # 30 beads of type‑1  (block A)
              (2, 70)]              # 70 beads of type‑2  (block B)
 rho_star  = 3.0                    # number density ρ*
 seed      = 12345                  # RNG seed for reproducibility
