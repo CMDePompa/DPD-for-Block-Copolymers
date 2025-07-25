@@ -29,9 +29,8 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________________________________
  HOW TO EDIT FOR A NEW SYSTEM:
  - Change only the values in the USER INPUT block, leave the rest
-   - Change the tuples in `block_def`:
-       (atom_type, number_of_beads_in_block)
-     Example below makes an **A30‑B70** diblock (A = type‑1, B = type‑2).
+   - Change the tuples in `block_def`: (atom_type, number_of_beads_in_block)
+   - Example below makes an **A30‑B70** diblock (A = type‑1, B = type‑2).
  NOTE: Keep `nchains * total_beads_per_chain` reasonable (less than 50000) for quick tests.
 """
 import os
